@@ -25,9 +25,9 @@ paths:
     get:
       summary: Retrieve processed Email data
       description: Fetches the most recent unprocessed email data.
-                    **Note:**  
-                    Use test credentials provided by Freightoscope Support.  
-                    Contact: support@freightoscope.com       
+        **Note:**  
+        Use test credentials provided by Freightoscope Support.  
+        Contact: support@freightoscope.com       
 
       parameters:
         - name: userName
@@ -301,6 +301,7 @@ components:
               PartialReason:
                 type: string
                 description: Reason for partial data (if IsPartial = true).
+
 
 
 
