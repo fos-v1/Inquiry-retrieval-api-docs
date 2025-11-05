@@ -32,14 +32,14 @@ paths:
           description: Username for authentication.
           schema:
             type: string
-          example: "AI Demo"
+          example: "your_username"
         - name: Password
           in: query
           required: true
           description: Password for authentication.
           schema:
             type: string
-          example: "FOS@2024"
+          example: "your_password"
         #- name: 
           #in: query
           #required: false
@@ -297,6 +297,7 @@ components:
               PartialReason:
                 type: string
                 description: Reason for partial data (if IsPartial = true).
+
 
 
 
