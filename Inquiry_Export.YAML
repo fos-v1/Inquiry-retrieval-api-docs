@@ -24,7 +24,7 @@ paths:
   /AIEmailData:
     get:
       summary: Retrieve processed Email data
-      description: | Fetches the most recent unprocessed email data.        
+      description: Fetches the most recent unprocessed email data.        
       parameters:
         - name: userName
           in: query
@@ -297,6 +297,7 @@ components:
               PartialReason:
                 type: string
                 description: Reason for partial data (if IsPartial = true).
+
 
 
 
