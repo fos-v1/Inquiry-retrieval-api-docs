@@ -30,7 +30,7 @@ paths:
 
         Use test credentials provided by Freightoscope Support.
 
-        Contact : support@freightoscope.com
+        
       parameters:
         - name: userName
           in: query
@@ -303,6 +303,7 @@ components:
               PartialReason:
                 type: string
                 description: Reason for partial data (if IsPartial = true).
+
 
 
 
