@@ -23,6 +23,8 @@ servers:
 paths:
   /AIEmailData:
     get:
+      tags:
+        - Headers
       summary: Retrieve processed Email data
       description: Fetches the most recent unprocessed email data.        
       parameters:
@@ -297,6 +299,7 @@ components:
               PartialReason:
                 type: string
                 description: Reason for partial data (if IsPartial = true).
+
 
 
 
