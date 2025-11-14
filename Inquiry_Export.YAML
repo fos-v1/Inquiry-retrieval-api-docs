@@ -13,10 +13,9 @@ info:
 
 
 servers:
-  - url: https://test.freightoscope.com
+  - url: https://fms-test-api.azurewebsites.net
     description: Test Server
-  - url: https://app.freightoscope.com
-    description: Production Server
+  
   
 
 
@@ -299,6 +298,7 @@ components:
               PartialReason:
                 type: string
                 description: Reason for partial data (if IsPartial = true).
+
 
 
 
